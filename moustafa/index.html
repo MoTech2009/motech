@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Moustafa Elboghdady - Mo Tech</title>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<!-- Google Font -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+<!-- Google Font Playful -->
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: radial-gradient(circle at top, #0e1a24, #060d14);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 420px;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.profile img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid rgba(255,255,255,0.2);
+}
+
+h1 {
+    margin-top: 15px;
+    font-weight: 600;
+    font-size: 26px;
+}
+
+.subtitle {
+    margin-top: 6px;
+    font-size: 20px;
+}
+
+.socials {
+    margin: 25px 0;
+    display: flex;
+    justify-content: center;
+    gap: 22px;
+}
+
+.socials a {
+    color: white;
+    font-size: 22px;
+    opacity: 0.9;
+    transition: 0.3s;
+}
+
+.socials a:hover {
+    opacity: 1;
+    transform: scale(1.15);
+}
+
+.link {
+    margin-top: 18px;
+    padding: 18px 22px;
+    border: 2px solid rgba(255,255,255,0.25);
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: 0.3s;
+     color: white;
+    text-decoration: none;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.link::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+        120deg,
+        transparent,
+        rgba(255,255,255,0.15),
+        transparent
+    );
+    opacity: 0;
+    transition: 0.4s;
+}
+
+.link:hover::before {
+    opacity: 1;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+    transition: all 0.35s ease;
+    justify-content: center;
+    gap: 14px;
+}
+
+
+
+
+.link:hover {
+    background: rgba(255,255,255,0.08);
+    box-shadow: 0 0 25px rgba(255,255,255,0.08);
+    transform: translateY(-2px);
+}
+
+.link i {
+    font-size: 20px;
+     color: white;
+    text-decoration: none;
+}
+
+.link span {
+    font-size: 18px;
+    font-weight: 500;
+}
+.copyright {
+    margin-top: 35px;
+    font-size: 13px;
+    text-align: center;
+    color: rgba(255,255,255,0.6);
+}
+
+.copyright a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.copyright a:hover {
+    color: #ffffff;
+    text-shadow: 0 0 8px rgba(255,255,255,0.5);
+}
+.mo-tech-playful {
+    font-family: 'Fredoka One', cursive;
+    font-size: 48px;
+    color: #ffcc00;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    margin-top: 30px; /* زد الرقم حسب المسافة اللي تحبها */
+}
+
+.mo-tech-playful a {
+    font-family: 'Fredoka One', cursive;
+    font-size: 48px;
+    color: #38b6ff; /* لون الخط */
+    text-decoration: none; /* نشيل underline */
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    transition: 0.3s;
+}
+
+.mo-tech-playful a:hover {
+    color: #fff; /* تغير اللون عند المرور بالفأرة */
+    text-shadow: 3px 3px 10px rgba(255,255,255,0.7);
+    transform: scale(1.05);
+}
+
+
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+    <div class="profile">
+        <img src="profile.jpg" alt="Profile">
+    </div>
+
+    <h1>Moustafa Elboghdady</h1>
+    <div class="subtitle">☝🏻 👨‍💻</div>
+
+    <div class="socials">
+        <a href="https://www.facebook.com/profile.php?id=100008139762613" target="_blank" rel="noopener noreferrer"> <i class="fab fa-facebook-f"></i></a>
+        <a href="https://instagram.com/Moustafakarem2009" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+        <a href="mailto:moustafaelboghdady2009@gmail.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-envelope"></i></a>
+        <a href="https://www.snapchat.com/add/mo2009.5" target="_blank" rel="noopener noreferrer"><i class="fab fa-snapchat-ghost"></i></a>
+        <a href="https://api.whatsapp.com/send?phone=201223578115" target="_blank" rel="noopener noreferrer"><i class="fab fa-whatsapp"></i></a>
+    </div>
+<a class="link" href="tel:+20123578115" target="_blank" rel="noopener noreferrer">
+    <i class="fas fa-phone"></i>
+    <span>My number</span>
+</a>
+
+
+<footer class="copyright">
+    © 2026 
+    <a href="https://motech-eg.pages.dev" target="_blank">
+        MO-TECH
+    </a>. All rights reserved.
+</footer>
+
+<div class="mo-tech-playful">
+    <a href="https://motech-eg.pages.dev" target="_blank" rel="noopener noreferrer">Mo Tech</a>
+</div>
+
+
+</body>
+
+
+</html>
