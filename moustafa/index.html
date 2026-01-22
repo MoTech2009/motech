@@ -179,6 +179,42 @@ h1 {
     transform: scale(1.05);
 }
 
+.card-ad {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 16px 20px;
+    background: #ffffff;
+    box-shadow: 0 -8px 20px rgba(0,0,0,0.25);
+    z-index: 1000;
+
+    display: flex;
+    justify-content: center; /* 👈 ده المهم */
+}
+
+.card-inner {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.card-logo {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+
+.card-text strong {
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+}
+
+.card-text span {
+    font-size: 14px;
+    color: #444;
+}
 
 
 </style>
@@ -214,8 +250,21 @@ h1 {
     </a>. All rights reserved.
 </footer>
 
+
 <div class="mo-tech-playful">
     <a href="https://motech-eg.pages.dev" target="_blank" rel="noopener noreferrer">Mo Tech</a>
+</div>
+<a href="https://motech-eg.pages.dev" class="card-ad">
+
+<div class="card-ad">
+    <div class="card-inner">
+        <img src="logo.png" alt="Mo Tech Logo" class="card-logo">
+        <div class="card-text">
+            <span>Don’t forget to get your</span>
+            <strong>Mo Tech Smart Card</strong>
+            <span>One tap – all your links in your pocket</span>
+        </div>
+    </div>
 </div>
 
 
