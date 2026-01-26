@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mo Tech | NFC Cards</title>
+  <meta name="description" content="Mo Tech sells premium NFC cards for businesses and individuals. One tap to share your profile." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body>
+<header class="header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html">
+      <span class="brand-mark">M</span>
+      <span class="brand-text">
+        <strong>Mo Tech</strong>
+        <small data-i18n="brand_tagline">NFC Cards Company</small>
+      </span>
+    </a>
+
+    <nav class="nav" id="nav">
+      <a href="index.html" class="active" data-i18n="nav_home">Home</a>
+      <a href="features.html" data-i18n="nav_features">Features</a>
+      <a href="products.html" data-i18n="nav_products">Products</a>
+      <a href="how.html" data-i18n="nav_how">How it works</a>
+      <a href="contact.html" class="btn btn-ghost" data-i18n="nav_contact">Contact</a>
+    </nav>
+
+    <div class="header-actions">
+      <button id="langBtn" class="lang-btn" aria-label="Switch language">AR</button>
+      <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-text reveal">
+        <div class="pill">
+          <span class="dot"></span>
+          <span data-i18n="hero_pill">One tap. Instant connection.</span>
+        </div>
+
+        <h1 data-i18n="hero_title">Premium NFC Cards for Modern Businesses</h1>
+        <p class="lead" data-i18n="hero_desc">
+          Share your WhatsApp, Instagram, website, location, and contact details — with a single tap. No app needed.
+        </p>
+
+        <div class="hero-cta">
+          <a class="btn btn-primary" href="products.html" data-i18n="hero_btn1">View Packages</a>
+          <a class="btn btn-ghost" href="contact.html" data-i18n="hero_btn2">Get a Quote</a>
+        </div>
+
+        <div class="stats">
+          <div class="stat">
+            <strong data-i18n="stat_1_big">No App</strong>
+            <span data-i18n="stat_1_small">Works instantly</span>
+          </div>
+          <div class="stat">
+            <strong data-i18n="stat_2_big">Custom</strong>
+            <span data-i18n="stat_2_small">Your logo & colors</span>
+          </div>
+          <div class="stat">
+            <strong data-i18n="stat_3_big">Fast</strong>
+            <span data-i18n="stat_3_small">Quick delivery</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-card reveal">
+        <div class="card3d" id="card3d">
+          <div class="card-face">
+            <div class="card-top">
+              <span class="chip"></span>
+              <span class="wifi"></span>
+            </div>
+            <div class="card-mid">
+              <h3 data-i18n="card_title">Mo Tech NFC</h3>
+              <p data-i18n="card_sub">Tap • Connect • Impress</p>
+            </div>
+            <div class="card-bottom">
+              <span class="mini">UID: 04 A1 C3 9F</span>
+              <span class="mini" data-i18n="card_made">Made in Egypt</span>
+            </div>
+          </div>
+          <div class="card-glow"></div>
+        </div>
+
+        <div class="trust">
+          <div class="trust-item">
+            <span class="badge" data-i18n="trust_1_badge">Quality</span>
+            <small data-i18n="trust_1_text">Premium materials</small>
+          </div>
+          <div class="trust-item">
+            <span class="badge" data-i18n="trust_2_badge">Delivery</span>
+            <small data-i18n="trust_2_text">Shipping inside Egypt</small>
+          </div>
+          <div class="trust-item">
+            <span class="badge" data-i18n="trust_3_badge">Support</span>
+            <small data-i18n="trust_3_text">Setup assistance</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-strip">
+    <div class="container cta-strip-inner">
+      <div>
+        <h2 data-i18n="strip_title">Ready to upgrade your first impression?</h2>
+        <p data-i18n="strip_desc">Choose your card color and start sharing instantly.</p>
+      </div>
+      <a class="btn btn-primary" href="products.html" data-i18n="strip_btn">See Prices</a>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <div>
+      <strong>Mo Tech</strong>
+      <p class="muted" data-i18n="footer_desc">NFC cards for businesses & creators.</p>
+    </div>
+    <div class="footer-links">
+      <a href="features.html" data-i18n="nav_features">Features</a>
+      <a href="products.html" data-i18n="nav_products">Products</a>
+      <a href="how.html" data-i18n="nav_how">How it works</a>
+      <a href="contact.html" data-i18n="nav_contact">Contact</a>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <span class="muted">© <span id="year"></span> Mo Tech</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

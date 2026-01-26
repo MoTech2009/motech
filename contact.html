@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mo Tech | Contact</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<header class="header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html">
+      <span class="brand-mark">M</span>
+      <span class="brand-text">
+        <strong>Mo Tech</strong>
+        <small data-i18n="brand_tagline">NFC Cards Company</small>
+      </span>
+    </a>
+
+    <nav class="nav" id="nav">
+      <a href="index.html" data-i18n="nav_home">Home</a>
+      <a href="features.html" data-i18n="nav_features">Features</a>
+      <a href="products.html" data-i18n="nav_products">Products</a>
+      <a href="how.html" data-i18n="nav_how">How it works</a>
+      <a href="contact.html" class="active btn btn-ghost" data-i18n="nav_contact">Contact</a>
+    </nav>
+
+    <div class="header-actions">
+      <button id="langBtn" class="lang-btn">AR</button>
+      <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main class="page">
+  <section class="container page-head">
+    <h1 data-i18n="contact_page_title">Contact Mo Tech</h1>
+    <p class="muted" data-i18n="contact_page_desc">
+      Send your details and we’ll reply with confirmation and delivery info.
+    </p>
+  </section>
+
+  <section class="container contact-grid">
+  <form class="form card" id="orderForm">
+
+  <label>
+    <span data-i18n="c_name">Full Name</span>
+    <input id="fullName" type="text" placeholder="John Doe" data-i18n-ph="c_name_ph" required>
+  </label>
+
+  <label>
+    <span data-i18n="c_phone">Phone / WhatsApp</span>
+    <input id="phone" type="text" placeholder="+20..." data-i18n-ph="c_phone_ph" required>
+  </label>
+
+  <label>
+    <span data-i18n="c_package">Package</span>
+    <select id="pkg">
+      <option value="Black NFC Card — 200 EGP" data-i18n="c_pkg_black">Black — 200 EGP</option>
+      <option value="White NFC Card — 150 EGP" data-i18n="c_pkg_white">White — 150 EGP</option>
+    </select>
+  </label>
+
+  <label>
+    <span data-i18n="c_links">Your links (optional)</span>
+    <textarea id="links" rows="4" placeholder="WhatsApp, Instagram, Website..." data-i18n-ph="c_links_ph"></textarea>
+  </label>
+
+  <button class="btn btn-primary w100" type="submit" data-i18n="c_send">Send</button>
+
+  <p class="muted tiny" id="formNote" data-i18n="c_note">
+    This form is UI-only. Connect it to WhatsApp / Email later.
+  </p>
+
+</form>
+
+    <div class="card info">
+      <h3 data-i18n="contact_info_title">Quick Info</h3>
+      <p class="muted" data-i18n="contact_info_desc">
+        You can connect this page to WhatsApp or email in 2 minutes.
+      </p>
+
+      <div class="info-row">
+        <span class="k" data-i18n="contact_info_k1">Delivery:</span>
+        <span class="v" data-i18n="contact_info_v1">Inside Egypt</span>
+      </div>
+
+      <div class="info-row">
+        <span class="k" data-i18n="contact_info_k2">Support:</span>
+        <span class="v" data-i18n="contact_info_v2">Setup assistance</span>
+      </div>
+
+      <div class="info-row">
+        <span class="k" data-i18n="contact_info_k3">Payments:</span>
+        <span class="v" data-i18n="contact_info_v3">Cash / Transfer</span>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer minimal">
+  <div class="container footer-bottom">
+    <span class="muted">© <span id="year"></span> Mo Tech</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

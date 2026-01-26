@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mo Tech | How it works</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<header class="header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html">
+      <span class="brand-mark">M</span>
+      <span class="brand-text">
+        <strong>Mo Tech</strong>
+        <small data-i18n="brand_tagline">NFC Cards Company</small>
+      </span>
+    </a>
+
+    <nav class="nav" id="nav">
+      <a href="index.html" data-i18n="nav_home">Home</a>
+      <a href="features.html" data-i18n="nav_features">Features</a>
+      <a href="products.html" data-i18n="nav_products">Products</a>
+      <a href="how.html" class="active" data-i18n="nav_how">How it works</a>
+      <a href="contact.html" class="btn btn-ghost" data-i18n="nav_contact">Contact</a>
+    </nav>
+
+    <div class="header-actions">
+      <button id="langBtn" class="lang-btn">AR</button>
+      <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main class="page">
+  <section class="container page-head">
+    <h1 data-i18n="how_page_title">How It Works</h1>
+    <p class="muted" data-i18n="how_page_desc">
+      From order to first tap — simple steps.
+    </p>
+  </section>
+
+  <section class="container steps">
+    <div class="step">
+      <span class="step-num">1</span>
+      <div>
+        <h3 data-i18n="how_1_title">Choose Your Card</h3>
+        <p class="muted" data-i18n="how_1_desc">Black (200 EGP) or White (150 EGP).</p>
+      </div>
+    </div>
+
+    <div class="step">
+      <span class="step-num">2</span>
+      <div>
+        <h3 data-i18n="how_2_title">Send Your Info</h3>
+        <p class="muted" data-i18n="how_2_desc">Your name, logo (optional), and links (WhatsApp / Instagram / website).</p>
+      </div>
+    </div>
+
+    <div class="step">
+      <span class="step-num">3</span>
+      <div>
+        <h3 data-i18n="how_3_title">We Set It Up</h3>
+        <p class="muted" data-i18n="how_3_desc">We prepare your tap profile and confirm it with you.</p>
+      </div>
+    </div>
+
+    <div class="step">
+      <span class="step-num">4</span>
+      <div>
+        <h3 data-i18n="how_4_title">Tap & Share</h3>
+        <p class="muted" data-i18n="how_4_desc">Just tap the card on a phone — done.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="container cta-box">
+    <div>
+      <h2 data-i18n="how_cta_title">Want to order now?</h2>
+      <p class="muted" data-i18n="how_cta_desc">Contact us and we’ll guide you through everything.</p>
+    </div>
+    <a class="btn btn-primary" href="contact.html" data-i18n="how_cta_btn">Contact Mo Tech</a>
+  </section>
+</main>
+
+<footer class="footer minimal">
+  <div class="container footer-bottom">
+    <span class="muted">© <span id="year"></span> Mo Tech</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

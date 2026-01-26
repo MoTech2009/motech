@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mo Tech | Products</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<header class="header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html">
+      <span class="brand-mark">M</span>
+      <span class="brand-text">
+        <strong>Mo Tech</strong>
+        <small data-i18n="brand_tagline">NFC Cards Company</small>
+      </span>
+    </a>
+
+    <nav class="nav" id="nav">
+      <a href="index.html" data-i18n="nav_home">Home</a>
+      <a href="features.html" data-i18n="nav_features">Features</a>
+      <a href="products.html" class="active" data-i18n="nav_products">Products</a>
+      <a href="how.html" data-i18n="nav_how">How it works</a>
+      <a href="contact.html" class="btn btn-ghost" data-i18n="nav_contact">Contact</a>
+    </nav>
+
+    <div class="header-actions">
+      <button id="langBtn" class="lang-btn">AR</button>
+      <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main class="page">
+  <section class="container page-head">
+    <h1 data-i18n="products_page_title">Products & Prices</h1>
+    <p class="muted" data-i18n="products_page_desc">
+      Only two packages. Pick your color and you’re ready.
+    </p>
+  </section>
+
+  <section class="container pricing-grid">
+    <article class="price-card">
+      <div class="price-top">
+        <span class="swatch black"></span>
+        <h3 data-i18n="prod_black_title">Black NFC Card</h3>
+      </div>
+
+      <div class="price" data-i18n="prod_black_price">200 EGP</div>
+
+      <ul class="list">
+        <li data-i18n="prod_common_1">One-tap sharing</li>
+        <li data-i18n="prod_common_2">Custom name / brand</li>
+        <li data-i18n="prod_common_3">Setup support</li>
+      </ul>
+
+      <a class="btn btn-primary w100" href="contact.html" data-i18n="prod_order_btn">Order Now</a>
+    </article>
+
+    <article class="price-card">
+      <div class="price-top">
+        <span class="swatch white"></span>
+        <h3 data-i18n="prod_white_title">White NFC Card</h3>
+      </div>
+
+      <div class="price" data-i18n="prod_white_price">150 EGP</div>
+
+      <ul class="list">
+        <li data-i18n="prod_common_1">One-tap sharing</li>
+        <li data-i18n="prod_common_2">Custom name / brand</li>
+        <li data-i18n="prod_common_3">Setup support</li>
+      </ul>
+
+      <a class="btn btn-ghost w100" href="contact.html" data-i18n="prod_order_btn">Order Now</a>
+    </article>
+  </section>
+
+  <section class="container note">
+    <p class="muted" data-i18n="products_note">
+      Note: Prices are in EGP. Delivery cost depends on location.
+    </p>
+  </section>
+</main>
+
+<footer class="footer minimal">
+  <div class="container footer-bottom">
+    <span class="muted">© <span id="year"></span> Mo Tech</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

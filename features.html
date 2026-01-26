@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mo Tech | Features</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<header class="header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html">
+      <span class="brand-mark">M</span>
+      <span class="brand-text">
+        <strong>Mo Tech</strong>
+        <small data-i18n="brand_tagline">NFC Cards Company</small>
+      </span>
+    </a>
+
+    <nav class="nav" id="nav">
+      <a href="index.html" data-i18n="nav_home">Home</a>
+      <a href="features.html" class="active" data-i18n="nav_features">Features</a>
+      <a href="products.html" data-i18n="nav_products">Products</a>
+      <a href="how.html" data-i18n="nav_how">How it works</a>
+      <a href="contact.html" class="btn btn-ghost" data-i18n="nav_contact">Contact</a>
+    </nav>
+
+    <div class="header-actions">
+      <button id="langBtn" class="lang-btn">AR</button>
+      <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main class="page">
+  <section class="container page-head">
+    <h1 data-i18n="features_page_title">Features</h1>
+    <p class="muted" data-i18n="features_page_desc">
+      Everything you need to look professional, share fast, and convert more customers.
+    </p>
+  </section>
+
+  <section class="container grid-3">
+    <article class="card">
+      <h3 data-i18n="feat_1_title">No App Required</h3>
+      <p class="muted" data-i18n="feat_1_desc">Works instantly on modern Android and iPhone devices.</p>
+    </article>
+
+    <article class="card">
+      <h3 data-i18n="feat_2_title">Custom Branding</h3>
+      <p class="muted" data-i18n="feat_2_desc">Your logo, colors, and clean professional layout.</p>
+    </article>
+
+    <article class="card">
+      <h3 data-i18n="feat_3_title">One Tap Profile</h3>
+      <p class="muted" data-i18n="feat_3_desc">Links to WhatsApp, Instagram, website, maps, and more.</p>
+    </article>
+
+    <article class="card">
+      <h3 data-i18n="feat_4_title">Durable Quality</h3>
+      <p class="muted" data-i18n="feat_4_desc">Premium card material with strong printing.</p>
+    </article>
+
+    <article class="card">
+      <h3 data-i18n="feat_5_title">Fast Delivery</h3>
+      <p class="muted" data-i18n="feat_5_desc">Quick production and shipping inside Egypt.</p>
+    </article>
+
+    <article class="card">
+      <h3 data-i18n="feat_6_title">Support</h3>
+      <p class="muted" data-i18n="feat_6_desc">We help you set up your profile and links.</p>
+    </article>
+  </section>
+
+  <section class="container cta-box">
+    <div>
+      <h2 data-i18n="features_cta_title">Want to see the packages?</h2>
+      <p class="muted" data-i18n="features_cta_desc">Only two options — black or white. Simple and clean.</p>
+    </div>
+    <a class="btn btn-primary" href="products.html" data-i18n="features_cta_btn">Go to Products</a>
+  </section>
+</main>
+
+<footer class="footer minimal">
+  <div class="container footer-bottom">
+    <span class="muted">© <span id="year"></span> Mo Tech</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
